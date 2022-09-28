@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Ecommerce</title>
+    <link rel="stylesheet" href="/Registrarse/style.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <div id="contenedor">
+        <div id="central">
+            <div id="login">
+                <div class="titulo"> Registrarse</div>
+
+                <form action="registar.php" method="post" class="form-register" onsubmit="return validar ();">
+                    <input type="text" id="Nombre" name="Nombre" placeholder="Nombre"required >
+                    <input type="text" id="Apellido" placeholder="Apellido" name="Apellido"required>
+                    <input type="text" id="Email" placeholder="Email" name="Email"required >
+                    <input type="password" id="Contraseña" placeholder="Contraseña" name="password"required>
+                   
+                    <button type="submit" title="Ingresar" name="Ingresar" href="/PanPrincipal/index.html">Login</button>
+                    <p class="warnings"></p>
+
+                    <div class="pie-form">
+                    <a href="#">¿No tienes Cuenta? Registrate ahora</a>
+                    <a href="#">¿olvido su contraseña?  </a>
+                     <a href="/InicioSesión/index.html"> Iniciar Sesion </a>
+                </div>
+            </div>
+            <div class="inferior"></div>
+                <a href="/PanPrincipal/index.html">Regresar</a>
+            </div>
+        </div>
+    </div>
+</form>
+
+</body>
+</html>

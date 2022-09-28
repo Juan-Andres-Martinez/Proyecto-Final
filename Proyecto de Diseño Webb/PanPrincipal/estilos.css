@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header {
+    background-color: #4E74A6;
+    width: 100%;
+    padding-top: 2%;
+}
+h1{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+}
+h2 {
+    text-align: center;
+}
+ul{
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+   
+}
+li{
+    text-align: center;
+    
+}
+body {
+    position: relative;
+    padding-bottom: 20em;
+    min-height: 100vh;
+    background-color: #D0DFF2;
+}
+body .principal {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px, 0 px;
+}
+.pie-pagina {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #4E74A6;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    padding: 45px, 0 px;
+
+}
+.pie-pagina .grupo-1 .box h4 {
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p {
+    color: #efefef;
+    margin-bottom: 10px;
+    
+}
+.pie-pagina .grupo-1 .box2 {
+    margin-right: 2%;
+}
+.pie-pagina .grupo-1 .box2 h4 {
+    color: #fff;
+    margin-bottom: 25px;
+    text-align: right;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box2 p {
+    color: #efefef;
+    margin-bottom: 10px;
+    text-align: right;
+}
+.imagenheader{
+    width: 40px;
+    height: 40px;
+}
+.link{ 
+    color: #fff; 
+    text-decoration: none;
+}
+.principal .caja .fotos {
+    width: 10px;
+    height: 10px;
+}
+.foto {
+    width: 80%;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+@media (min-width:300px) and (max-width:600px){
+    .foto {
+        width: 80%;
+        height: 75px;
+        object-fit: cover;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+}

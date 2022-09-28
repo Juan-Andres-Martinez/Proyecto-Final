@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 375 375" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-185.71 -278.29)">
+  <path transform="matrix(1.1156 0 0 1.1156 -53.549 -65.936)" d="m540 476.65a155.71 155.71 0 1 1 -311.43 0 155.71 155.71 0 1 1 311.43 0z" fill="#fff" fill-rule="evenodd" stroke="#1e96dc" stroke-width="10"/>
+  <path transform="translate(-17.143 -108.57)" d="m520 576.65a127.14 127.14 0 1 1 -254.29 0 127.14 127.14 0 1 1 254.29 0z" fill="#1e96dc" fill-rule="evenodd"/>
+  <text x="291.42859" y="580.93359" fill="#fcffff" font-family="Arial" font-size="300">
+   <tspan x="291.42859" y="580.93359" fill="#fcffff" font-family="Arial" font-size="300">?</tspan>
+  </text>
+ </g>
+</svg>
